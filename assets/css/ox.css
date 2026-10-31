@@ -1,0 +1,37 @@
+/* O-series shared layer (F1 × N3): grain paper, serif + grotesk, calm section type, glass butterfly. */
+:root { --bg: #ECEBE7; --ink: #171717; --ink-2: #77756F; --line: rgba(23,23,23,.14); --panel: #E3E2DD; --acc: #E2668C; --glow: transparent; --text: "Hanken Grotesk", Arial, sans-serif; color-scheme: light;
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .08 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); }
+body.o { background: var(--grain), var(--bg); }
+.o .loader { background: var(--grain), var(--bg); }
+.o .k-top { mix-blend-mode: normal; color: var(--ink); padding-bottom: 16px; background: linear-gradient(color-mix(in srgb, var(--bg) 92%, transparent) 55%, transparent); } .o .k-top .mono { color: var(--ink-2); }
+.o .k-prog { box-shadow: none; height: 1px; background: var(--acc); } .o .k-band { box-shadow: none; height: 1px; background: var(--ink); }
+.o .kswitch a.is-on, .o .kswitch a:hover { background: var(--ink); color: var(--bg); }
+/* calm, readable sections */
+.o .k-sec { padding-top: clamp(80px, 9vw, 140px); }
+.o .k-h { margin-bottom: 26px; align-items: baseline; } .o .k-h h2 { font-weight: 400; font-size: clamp(30px, 3.2vw, 50px); line-height: 1; } .o .k-h h2 em { color: var(--ink-2); font-style: italic; } .o .k-h p { font-size: 13px; }
+.o .k-list a { transform: none; opacity: 1; padding: 12px 0; grid-template-columns: 50px minmax(0, 2fr) minmax(0, 2fr) minmax(0, 1fr) 50px; }
+.o .k-list b { font-size: clamp(20px, 1.8vw, 28px); } .o .k-list a:hover b { color: var(--ink); } .o .k-list .d { font-size: 14px; }
+.o .k-atxt .lead { font-size: clamp(22px, 2vw, 30px); } .o .k-face { aspect-ratio: 4 / 5; }
+.o .k-stats { margin-top: 40px; } .o .k-stats b { font-size: clamp(32px, 3.2vw, 50px); color: var(--ink); }
+.o .k-contact { align-items: start; } .o .k-mail { font-size: clamp(26px, 3.4vw, 54px); line-height: 1; } .o .k-mail:hover { color: var(--acc); font-style: italic; text-shadow: none; }
+.o .k-map { grid-column: span 5; aspect-ratio: 4 / 3; } .o .k-cinfo { grid-column: 7 / -1; }
+.o-proc { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--gap); }
+.o-proc > div { border-top: 1px solid var(--ink); padding-top: 12px; opacity: calc(.15 + var(--p, 1) * .85); transform: translateY(calc((1 - var(--p, 1)) * 30px)); }
+.o-proc h3 { margin: 8px 0 6px; font-family: var(--display); font-weight: 400; font-style: italic; font-size: clamp(24px, 2.2vw, 34px); } .o-proc p { margin: 0; color: var(--ink-2); font-size: 14px; max-width: 34ch; }
+/* project page */
+.o .kp-hero { height: 86svh; background: var(--grain), var(--bg); } .o .kp-hero::after { background: none; }
+.o .kp-title { bottom: 28px; } .o .kp-title h1 { font-size: clamp(44px, 6vw, 104px); line-height: 1; text-shadow: none; } .o .kp-title .mono { display: block; margin-bottom: 14px; } .o .kp-title p { font-family: var(--display); font-style: italic; font-size: 20px; margin: 6px 0 0; }
+/* glass butterfly */
+.o-bf { position: fixed; left: 0; top: 0; z-index: 140; width: 100px; height: 100px; pointer-events: none; will-change: transform; }
+.o-bi { position: absolute; inset: 0; perspective: 500px; transform-style: preserve-3d; filter: drop-shadow(0 14px 16px rgba(50,70,90,.22)); }
+.o-w { position: absolute; left: 0; top: 0; width: 50px; height: 100px; transform-origin: 50px 50px; transform: rotateY(var(--a, 30deg)); }
+.o-w.r { left: 50px; transform-origin: 0 50px; transform: scaleX(-1) rotateY(var(--a, 30deg)); }
+.o-w i { position: absolute; inset: 0; width: 100px; height: 200px; transform: scale(.5); transform-origin: 0 0; background: linear-gradient(140deg, rgba(255,255,255,.8), color-mix(in srgb, var(--wc) 60%, transparent) 60%, rgba(255,255,255,.45)); backdrop-filter: blur(4px) saturate(1.6); transition: background .6s; }
+.o-w svg { position: absolute; inset: 0; width: 50px; height: 100px; overflow: visible; } .o-w svg path { fill: none; stroke: rgba(255,255,255,.95); stroke-width: 1.2; } .o-w svg .v { stroke: rgba(255,255,255,.55); stroke-width: .8; }
+.o-bi > b { position: absolute; left: 47px; top: 34px; width: 6px; height: 34px; border-radius: 4px; background: linear-gradient(#fff, color-mix(in srgb, var(--wc) 70%, #334)); }
+/* typed label sticker (N3) */
+.o-label { background: #F7F6F2; display: grid; grid-template-columns: 1fr 1fr; font-size: 11px; box-shadow: 0 2px 5px rgba(0,0,0,.14); padding: 8px 10px; }
+.o-label div { display: grid; gap: 1px; padding: 5px 4px; border-bottom: 1px solid rgba(0,0,0,.16); } .o-label .w { grid-column: 1 / -1; border: 0; }
+.o-label b { font: 400 8px var(--mono); text-transform: uppercase; color: var(--ink-2); letter-spacing: .05em; } .o-label span { font-family: var(--display); font-style: italic; font-size: 14px; line-height: 1.15; }
+.o-dot { position: absolute; width: 12px; height: 12px; border-radius: 50%; background: var(--acc); }
+@media (max-width: 900px) { .o-proc { grid-template-columns: 1fr 1fr; } .o .k-map, .o .k-cinfo { grid-column: 1 / -1; } }
