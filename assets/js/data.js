@@ -63,7 +63,7 @@ window.PROJECTS = [
       ['Audience', 'Family caregivers of elderly patients'],
       ['Deliverables', 'Cover, layout, character illustrations, chapter openers, infographics'],
     ],
-    credits: [['Credits', 'listed on the book\'s imprint page']],
+    credits: [['Project with', 'LPPM ITB, ITB Farmasi'], ['Tim Penyusun', 'Dr. apt. Pratiwi Wikaningtyas, Prof. apt. I Ketut Adnyana, Ph.D, Dra. Anis Sussieyani, M.Ds'], ['AD', 'Inko Sakti Dewanto, M.Ds'], ['D', 'Rifqi Najmu Syaqib'], ['Illustration', 'Muhamad Farid Ridwan']],
     gallery: [
       { r: ['fg-book', 'fg-characters'] },
       { t: 'text', h: 'Big numbers, small book.', p: 'Each chapter opens on a full teal page with an oversized numeral, so a caregiver can find the right section quickly while holding the book in one hand.' },
@@ -90,7 +90,7 @@ window.PROJECTS = [
       ['Typefaces', 'Clash Display, DM Sans'],
       ['Deliverables', 'Campaign logo, colour scheme, mascots, supergraphics, guidelines, merchandise, social media, booth visuals, motion'],
     ],
-    credits: CREDITS,
+    credits: [['Lecturer Director', 'Wiwi Isnaini'], ['Lead Project', 'Rifqi Najmu'], ['CD', 'Peby Mardiansyah'], ['D', 'Peby Mardiansyah, Dzikran Izharuddin'], ['CW', 'Dzikran Izharuddin'], ['Illustrator & 3D', 'Vera Alma'], ['Motion', 'Rifqi Najmu, Ilham Baihaqi'], ['Videographer', 'Rifqi Najmu']],
     gallery: [
       { r: ['fg-logo'] },
       { r: ['fg-system'] },
@@ -193,7 +193,7 @@ window.PROJECTS = [
     summary: "A music video for Tame Impala’s The Less I Know The Better, told in red and blue light around one restless figure.",
     overview: ["The video follows a lone character between two colours: hot red for longing and cold blue for the morning after. Close-ups, a crowd scene and a handheld camera keep the mood close to the song’s bittersweet loop.","Lyrics are set straight into the frame as small, drifting type, and a theatrical key visual with a full credit block works as the film’s poster."],
     facts: [["Format","Music video and key visual poster"],["Palette","Red, blue, teal light"],["Deliverables","Direction, cinematography, editing, lyric typography, poster"]],
-    credits: [['Credits', 'listed on the film poster']],
+    credits: [['Lead', 'Rafi Naufal'], ['DOP', 'Rifqi Najmu'], ['V', 'Rifqi Najmu, Natifa'], ['Cast', 'Rafila Billy'], ['Makeup', 'Vera Almaida, Natifa'], ['Set', 'Natifa, Vera Almaida'], ['E', 'Rafi Naufal, Rifqi Najmu']],
     gallery: [
       { r: ['v:mv'] },
       { r: ['still-0', 'still-1', 'still-2'] },
