@@ -275,7 +275,7 @@ window.PROFILE = {
     { h: 'Organization', rows: [
       ['Aug 2026', 'Archive & Formatting', 'How & Why 2026: /ALT', ''],
       ['Jul—Aug 2025', 'Conceptor', 'Think Feel Do Exhibition 2025: Gridlock', ''],
-      ['Jul 2024—Now', 'Chairman, DKV Project', 'Electric motorbike campaign with SUNRA', ''],
+      ['Jul 2024—Jul 2026', 'Chairman, DKV Project', 'Electric motorbike campaign with SUNRA', ''],
       ['Sep—Nov 2024', 'Deputy Chairman, PUBDOC Division', 'Think Feel Do Exhibition: Resonate 2024', ''],
       ['Jan 2024—Jun 2025', 'Deputy Chairman, Imadji Photography Club (FODJI)', 'ITENAS Visual Communication Design Student Association', ''],
       ['Nov 2023—Now', 'Active Member', 'Bandung Design Friendly', ''],
