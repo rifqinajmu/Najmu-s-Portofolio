@@ -63,7 +63,7 @@ window.PROJECTS = [
       ['Audience', 'Family caregivers of elderly patients'],
       ['Deliverables', 'Cover, layout, character illustrations, chapter openers, infographics'],
     ],
-    credits: [['Project with', 'LPPM ITB, ITB Farmasi'], ['Tim Penyusun', 'Dr. apt. Pratiwi Wikaningtyas, Prof. apt. I Ketut Adnyana, Ph.D, Dra. Anis Sussieyani, M.Ds'], ['AD', 'Inko Sakti Dewanto, M.Ds'], ['D', 'Rifqi Najmu Syaqib'], ['Illustration', 'Muhamad Farid Ridwan']],
+    credits: [['Credits', 'listed on the book\'s imprint page']],
     gallery: [
       { r: ['fg-book', 'fg-characters'] },
       { t: 'text', h: 'Big numbers, small book.', p: 'Each chapter opens on a full teal page with an oversized numeral, so a caregiver can find the right section quickly while holding the book in one hand.' },
@@ -77,7 +77,7 @@ window.PROJECTS = [
   {
     slug: 'nyalain', title: '#NyalainMasaDepan', name: 'Switching On the Future for Gen Alpha',
     category: 'Campaign', tags: ['Campaign Identity', 'Mascot', 'Motion'], year: '2025',
-    market: 'Electric motorbike', location: 'Bandung, IDN', role: 'Branding campaign', client: 'SUNRA, with Ventra',
+    market: 'Electric motorbike', location: 'Bandung, IDN', role: 'Project lead, photo & motion', client: 'SUNRA, with Ventra',
     color: '#FFE14D', ink: '#13203A', cover: 'fg-billboard', video: 'nyalain-led',
     reel: ['fg-billboard', 'fg-logo', 'fg-system', 'fg-outdoor', 'fg-phones', 'fg-cap', 'fg-merch', 'fg-stickers'],
     summary: 'A campaign identity that makes electric motorbikes feel like the future Generation Alpha gets to lead.',
@@ -90,7 +90,7 @@ window.PROJECTS = [
       ['Typefaces', 'Clash Display, DM Sans'],
       ['Deliverables', 'Campaign logo, colour scheme, mascots, supergraphics, guidelines, merchandise, social media, booth visuals, motion'],
     ],
-    credits: [['Lecturer Director', 'Wiwi Isnaini'], ['Lead Project', 'Rifqi Najmu'], ['CD', 'Peby Mardiansyah'], ['D', 'Peby Mardiansyah, Dzikran Izharuddin'], ['CW', 'Dzikran Izharuddin'], ['Illustrator & 3D', 'Vera Alma'], ['Motion', 'Rifqi Najmu, Ilham Baihaqi'], ['Videographer', 'Rifqi Najmu']],
+    credits: CREDITS,
     gallery: [
       { r: ['fg-logo'] },
       { r: ['fg-system'] },
@@ -193,7 +193,7 @@ window.PROJECTS = [
     summary: "A music video for Tame Impala’s The Less I Know The Better, told in red and blue light around one restless figure.",
     overview: ["The video follows a lone character between two colours: hot red for longing and cold blue for the morning after. Close-ups, a crowd scene and a handheld camera keep the mood close to the song’s bittersweet loop.","Lyrics are set straight into the frame as small, drifting type, and a theatrical key visual with a full credit block works as the film’s poster."],
     facts: [["Format","Music video and key visual poster"],["Palette","Red, blue, teal light"],["Deliverables","Direction, cinematography, editing, lyric typography, poster"]],
-    credits: [['Lead', 'Rafi Naufal'], ['DOP', 'Rifqi Najmu'], ['V', 'Rifqi Najmu, Natifa'], ['Cast', 'Rafila Billy'], ['Makeup', 'Vera Almaida, Natifa'], ['Set', 'Natifa, Vera Almaida'], ['E', 'Rafi Naufal, Rifqi Najmu']],
+    credits: [['Credits', 'listed on the film poster']],
     gallery: [
       { r: ['v:mv'] },
       { r: ['still-0', 'still-1', 'still-2'] },
@@ -274,7 +274,7 @@ window.PROFILE = {
     ] },
     { h: 'Organization', rows: [
       ['Aug 2026', 'Archive & Formatting', 'How & Why 2026: /ALT', ''],
-      ['Jul—Aug 2025', 'Conceptor', 'Think Feel Do Exhibition 2025: Gridlock', ''],
+      ['Sep—Nov 2025', 'Conceptor', 'Think Feel Do Exhibition 2025: Gridlock', ''],
       ['Jul 2024—Now', 'Chairman, DKV Project', 'Electric motorbike campaign with SUNRA', ''],
       ['Sep—Nov 2024', 'Deputy Chairman, PUBDOC Division', 'Think Feel Do Exhibition: Resonate 2024', ''],
       ['Jan 2024—Jun 2025', 'Deputy Chairman, Imadji Photography Club (FODJI)', 'ITENAS Visual Communication Design Student Association', ''],
