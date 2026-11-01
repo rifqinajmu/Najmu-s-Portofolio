@@ -63,7 +63,7 @@ window.PROJECTS = [
       ['Audience', 'Family caregivers of elderly patients'],
       ['Deliverables', 'Cover, layout, character illustrations, chapter openers, infographics'],
     ],
-    credits: [['Project with', 'LPPM ITB, ITB Farmasi'], ['Tim Penyusun', 'Dr. apt. Pratiwi Wikaningtyas, Prof. apt. I Ketut Adnyana, Ph.D, Dra. Anis Sussieyani, M.Ds, Apt. Silma Aulia Rahmah, M.Si, Cut Difa Aulya Oktaviani Yoesoef, Apt. Rahmawati, S.Si., M.Kes, dr. Saldy Meirisandy, SpPD FINASIM, apt. Lita Susanty, S.Si., Rahmawati Ramli, S.Kep.Ns., M.Kes'], ['AD', 'Inko Sakti Dewanto, M.Ds'], ['D', 'Rifqi Najmu Syaqib'], ['Illustration', 'Muhamad Farid Ridwan']],
+    credits: [['Project with', 'LPPM ITB, ITB Farmasi'], ['Tim Penyusun', 'Dr. apt. Pratiwi Wikaningtyas, Prof. apt. I Ketut Adnyana, Ph.D, Dra. Anis Sussieyani, M.Ds'], ['AD', 'Inko Sakti Dewanto, M.Ds'], ['D', 'Rifqi Najmu Syaqib'], ['Illustration', 'Muhamad Farid Ridwan']],
     gallery: [
       { r: ['fg-book', 'fg-characters'] },
       { t: 'text', h: 'Big numbers, small book.', p: 'Each chapter opens on a full teal page with an oversized numeral, so a caregiver can find the right section quickly while holding the book in one hand.' },
@@ -77,7 +77,7 @@ window.PROJECTS = [
   {
     slug: 'nyalain', title: '#NyalainMasaDepan', name: 'Switching On the Future for Gen Alpha',
     category: 'Campaign', tags: ['Campaign Identity', 'Mascot', 'Motion'], year: '2025',
-    market: 'Electric motorbike', location: 'Bandung, IDN', role: 'Project lead, photo & motion', client: 'SUNRA, with Ventra',
+    market: 'Electric motorbike', location: 'Bandung, IDN', role: 'Branding campaign', client: 'SUNRA, with Ventra',
     color: '#FFE14D', ink: '#13203A', cover: 'fg-billboard', video: 'nyalain-led',
     reel: ['fg-billboard', 'fg-logo', 'fg-system', 'fg-outdoor', 'fg-phones', 'fg-cap', 'fg-merch', 'fg-stickers'],
     summary: 'A campaign identity that makes electric motorbikes feel like the future Generation Alpha gets to lead.',
@@ -90,7 +90,7 @@ window.PROJECTS = [
       ['Typefaces', 'Clash Display, DM Sans'],
       ['Deliverables', 'Campaign logo, colour scheme, mascots, supergraphics, guidelines, merchandise, social media, booth visuals, motion'],
     ],
-    credits: [['SOW', 'Branding & Brand Campaign'], ['TOW', 'College Assignment (Proyek DKV)'], ['Lecturer Director', 'Wiwi Isnaini'], ['Lead Project', 'Rifqi Najmu'], ['CD', 'Peby Mardiansyah'], ['D', 'Peby Mardiansyah, Dzikran Izharuddin'], ['CW', 'Dzikran Izharuddin'], ['Illustrator & 3D', 'Vera Alma'], ['Motion', 'Rifqi Najmu, Ilham Baihaqi'], ['Videographer', 'Rifqi Najmu']],
+    credits: [['Lecturer Director', 'Wiwi Isnaini'], ['Lead Project', 'Rifqi Najmu'], ['CD', 'Peby Mardiansyah'], ['D', 'Peby Mardiansyah, Dzikran Izharuddin'], ['CW', 'Dzikran Izharuddin'], ['Illustrator & 3D', 'Vera Alma'], ['Motion', 'Rifqi Najmu, Ilham Baihaqi'], ['Videographer', 'Rifqi Najmu']],
     gallery: [
       { r: ['fg-logo'] },
       { r: ['fg-system'] },
