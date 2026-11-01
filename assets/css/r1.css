@@ -424,8 +424,8 @@ html.is-locked .sw, html.is-locked .sw-trail { opacity: 0 !important; visibility
 .r1 .kp-spec > div { min-width: 0; grid-template-columns: 120px minmax(0, 1fr) !important; }
 .r1 .kp-cred { overflow-wrap: anywhere; min-width: 0; }
 .r1 .kp-cred--list em { display: none; }
-.r1 .kp-cred--list span { display: grid !important; grid-template-columns: 150px minmax(0, 1fr); column-gap: 12px; padding: 2px 0; white-space: normal !important; }
+.r1 .kp-cred--list span { display: grid !important; grid-template-columns: 130px minmax(0, 1fr); column-gap: 12px; padding: 2px 0; white-space: normal !important; }
 .r1 .kp-cred--list span > i { white-space: normal; }
 @media (max-width: 760px) {
-  .r1 .kp-cred--list span { grid-template-columns: 96px minmax(0, 1fr); column-gap: 10px; }
+  .r1 .kp-cred--list span { grid-template-columns: 72px minmax(0, 1fr); column-gap: 8px; }
 }
